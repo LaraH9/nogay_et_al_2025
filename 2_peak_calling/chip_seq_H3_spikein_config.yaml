@@ -1,0 +1,23 @@
+chip_dict:
+  spikein_H3_WD_cdk1KD:
+    broad: true
+  spikein_H3_WD_ctr:
+    broad: true
+  spikein_H3K27ac_WD_cdk1KD:
+    broad: true
+  spikein_H3K27ac_WD_ctr:
+    broad: true
+  spikein_H3K27me3_WD_cdk1KD:
+    broad: true
+  spikein_H3K27me3_WD_ctr:
+    broad: true
+  spikein_H3K9me3_WD_cdk1KD:
+    broad: true
+  spikein_H3K9me3_WD_ctr:
+    broad: true
+
+# Top-level entry
+bamCompare:
+  enable: false
+
+norm: None
