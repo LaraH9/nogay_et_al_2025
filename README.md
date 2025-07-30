@@ -9,7 +9,7 @@ We used snakePipes-v3.0.0 to align the fastq.gz files to a constructed hybrid dm
 Aligned replicates were [merged](./1_normalisation_H3_spikein/00_merge_bam_files.sh) before normalization to both H3 and spike-in signals. The code used for the H3 and Lambda normalization was based on work done by [Yinxiu Zhan](https://github.com/zhanyinx/atinbayeva_paper_2023) and modified according top [our purposes](./1_normalisation_H3_spikein/02_batch_norm_H3_spikein_merged_bam.sh).
 
 ###  2. Peak Calling
-We used snakePipes-v3.0.0 with MACS2-v 2.2.9.1 to call CUT&Tag peaks.
+We used snakePipes-v3.0.0 with MACS2-v 2.2.9.1 to call CUT&Tag peaks. Used config files are provided [here](https://github.com/LaraH9/nogay_et_al_2025/tree/main/2_peak_calling).
 
 ###  3. Heatmaps & Profile Plot 
 We used deepTools-v3.5.6 to compute matrices of signal enrichment +/− 5kb around transcription start sites (TSS) or peak centers of shared or unique peaks for wt and cdk1KD. Coverage heatmaps and profiles were created using plotHeatmap or plotProfile from deepTools-v.2.5.7. 
