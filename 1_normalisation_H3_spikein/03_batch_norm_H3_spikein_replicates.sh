@@ -5,7 +5,7 @@
 ## This software is distributed without any guarantee under the terms of the GNU General
 
 ## This bash script runs spikein normalization using the "01_normalise.sh" script
-## for all 4 modifications (including H3 as control 
+## for all 4 modifications (including H3 as control)
 ## using replicates as data
 
 # Define the histone modifications and conditions
