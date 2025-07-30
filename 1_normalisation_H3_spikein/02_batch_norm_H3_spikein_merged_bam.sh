@@ -5,7 +5,8 @@
 ## This software is distributed without any guarantee under the terms of the GNU General
 
 ## This bash script runs spikein normalization using the "01_normalise_merged.sh" script
-## for all 4 antibodies (including H3 norm as well) and all 2 replicates
+## for all 4 modifications (including H3 as control)
+## using MERGED bam files as data
 
 # Define the histone modifications and conditions
 histones=("H3", "H3K27ac" "H3K27me3" "H3K9me3") 
