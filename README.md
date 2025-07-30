@@ -1,9 +1,9 @@
 # Code for nogay_et_al_2025
 
-Here we put the scripts used to analyse the CUT&Tag data. The scripts are example scripts that need to be adapted to the user path and data structure.
+Here we put the scripts used to analyse the CUT&Tag data for the paper Nogay et al. 2025. The scripts are example scripts that need to be adapted to the user path and data structure.
 
 ###  DNAmapping
-We used snakePipes-v3.0.0 to align the fastq.gz files to a constructed hybrid dm6 and Lambda phage genome (Genbank: J02459.1). The config yaml file used to do the alignment is provided here.
+We used snakePipes-v3.0.0 to align the fastq.gz files to a constructed hybrid dm6 and Lambda phage genome (Genbank: J02459.1). The adjusted config yaml file used to do the alignment is provided [here](./mapping/hybrid_adjusted.yaml).
 
 ###  Normalisation
 Aligned replicates were merged before normalization to both H3 and spike-in signals. The code used for the H3 and Lambda normalization was based on work done by Yinxiu Zhan (https://github.com/zhanyinx/atinbayeva_paper_2023) and modified according top our purposes.
